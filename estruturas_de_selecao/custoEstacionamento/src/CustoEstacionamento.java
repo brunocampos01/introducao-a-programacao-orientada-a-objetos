@@ -1,10 +1,14 @@
 public class CustoEstacionamento {
     public static void main(String[] args) {
+    	//testes
         System.out.println(custoEstacionamento(6, 30, 23, 0));
     }
-    public static double custoEstacionamento(int horaEntrada, int minutoEntrada, int horaSaida, int minutoSaida)
-    {
-        double totalPagar;
+    
+    public static double custoEstacionamento(int horaEntrada, 
+    		int minutoEntrada, int horaSaida, int minutoSaida){
+        
+    	//variaveis de escopo
+    	double totalPagar;
         double totalMinutos;
         double horaExtra;
         totalMinutos = (horaSaida*60 + minutoSaida) - (horaEntrada*60 + minutoEntrada);

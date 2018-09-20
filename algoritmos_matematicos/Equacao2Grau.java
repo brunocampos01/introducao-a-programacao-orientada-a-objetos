@@ -1,15 +1,10 @@
-package matematicaBasica;
-
 public class Equacao2Grau {
-
 	public static void main(String[] args) {
-
 		//atributos
 		int a = (int) numeroAleatorio();
 		int b = (int) numeroAleatorio();
 		int c = (int) numeroAleatorio();
 		System.out.println(+a+ "x^2 + " +b+ "x + " +c);
-		
 		int x1;
 		int x2;
 		
@@ -30,7 +25,7 @@ public class Equacao2Grau {
 			System.out.println("DELTA = " +x1);
 		}
 		if (delta < 0){
-			System.out.println(" NÃO tem raiz real");
+			System.out.println(" Nï¿½O tem raiz real");
 		}
 		if (delta > 0){
 			x1 = (int) ((+b + Math.sqrt(delta))/ (2*a));
@@ -39,9 +34,7 @@ public class Equacao2Grau {
 			System.out.println(" 2 raizes reais");
 			System.out.println(x1);
 			System.out.println(x2);
-
 		}
-
 	}
 	
 	//metodo para obter numeros aleatorios

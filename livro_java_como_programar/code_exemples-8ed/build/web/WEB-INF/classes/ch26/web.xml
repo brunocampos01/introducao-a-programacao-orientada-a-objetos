@@ -1,0 +1,54 @@
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+      http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+   version="2.4">
+
+   <!-- General description of your Web application -->
+   <display-name>
+      Java How to Program JSP 
+      and Servlet Chapter Examples
+   </display-name>
+
+   <description>
+      This is the Web application in which we 
+      demonstrate our JSP and Servlet examples.
+   </description>
+
+   <!-- Servlet definitions -->
+   <servlet>
+      <servlet-name>welcome1</servlet-name>
+
+      <description>
+         A simple servlet that handles an HTTP get request.
+      </description>
+
+      <servlet-class>
+         WelcomeServlet
+      </servlet-class>
+   </servlet>
+
+   <!-- Servlet mappings -->
+   <servlet-mapping>
+      <servlet-name>welcome1</servlet-name>
+      <url-pattern>/welcome1</url-pattern>
+   </servlet-mapping>
+
+</web-app>
+
+<!-- 
+/**************************************************************************
+ * (C) Copyright 1992-2005 by Deitel & Associates, Inc. and               *
+ * Pearson Education, Inc. All Rights Reserved.                           *
+ *                                                                        *
+ * DISCLAIMER: The authors and publisher of this book have used their     *
+ * best efforts in preparing the book. These efforts include the          *
+ * development, research, and testing of the theories and programs        *
+ * to determine their effectiveness. The authors and publisher make       *
+ * no warranty of any kind, expressed or implied, with regard to these    *
+ * programs or to the documentation contained in these books. The authors *
+ * and publisher shall not be liable in any event for incidental or       *
+ * consequential damages in connection with, or arising out of, the       *
+ * furnishing, performance, or use of these programs.                     *
+ *************************************************************************/
+ -->

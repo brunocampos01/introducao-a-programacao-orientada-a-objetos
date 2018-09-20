@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="anoBissexto/src"/>
+	<classpathentry kind="src" path="aprovacaoUFSC/src"/>
+	<classpathentry kind="src" path="arredondamento/src"/>
+	<classpathentry kind="src" path="conceitoMedia/src"/>
+	<classpathentry kind="src" path="custoEstacionamento/src"/>
+	<classpathentry kind="src" path="diasTranscorridos/src"/>
+	<classpathentry kind="src" path="idade/src"/>
+	<classpathentry kind="src" path="parOuImpar/src"/>
+	<classpathentry kind="src" path="premioSeguro/src"/>
+	<classpathentry kind="src" path="premioSeguro2/src"/>
+	<classpathentry kind="src" path="valoresDistintos/src"/>
+	<classpathentry kind="output" path="anoBissexto/build/classes"/>
+</classpath>

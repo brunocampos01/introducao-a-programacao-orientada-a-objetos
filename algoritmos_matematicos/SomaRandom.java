@@ -1,5 +1,3 @@
-package matematicaBasica;
-
 public class SomaRandom {
 
 	public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package matematicaBasica;
-
 public class Potenciacao {
 
 	public static void main(String[] args) {

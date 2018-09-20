@@ -1,5 +1,3 @@
-package matematicaBasica;
-
 public class Fatorial {
 	public static void main(String[] args) {
 		int fat = 3;

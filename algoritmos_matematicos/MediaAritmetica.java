@@ -1,11 +1,8 @@
-package matematicaBasica;
 import java.util.Random;
 
 public class MediaAritmetica {
-
 	public static void main(String[] args) {
-		// atributos
-		
+		// atributos	
 		double nota1 = Math.random() * 10;
 		double nota2 = Math.random() * 10;
 		double nota3 = Math.random() * 10;

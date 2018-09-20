@@ -1,5 +1,6 @@
 /*Este exemplo mostra que o WHile é obrigatorio para exibir uma quantidade diferente de mensagens na tela, 
 neste caso é impossivel fazer com somente System.out.print*/
+
 public class WhileObrigatorio {
     public static void main(String[] args) {
         double i = 0;

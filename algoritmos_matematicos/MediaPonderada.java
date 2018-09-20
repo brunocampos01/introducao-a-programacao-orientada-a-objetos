@@ -1,8 +1,4 @@
-package matematicaBasica;
-
 public class MediaPonderada {
-
-	
 	public static void main(String[] args) {
 		
 		// atributos
@@ -18,7 +14,6 @@ public class MediaPonderada {
 		media = (nota1*peso1 +nota2*peso2 + nota3*peso3)/(peso1 + peso2 + peso3) ;
 		System.out.println("notas: " +nota1+ ", "+nota2+ ", "+nota3);
 		System.out.println("media: " +media);
-
 	}
 	
 	//metodos

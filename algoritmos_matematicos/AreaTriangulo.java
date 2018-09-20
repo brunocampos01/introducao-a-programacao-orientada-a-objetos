@@ -1,13 +1,8 @@
-package matematicaBasica;
-
 public class AreaTriangulo {
-
 	public static void main(String[] args) {
-		
 		//atributos
 		int base = randomTamanhos();
 		int altura = randomTamanhos();
-		
 		int areaTriangulo = (base*altura)/2;
 		
 		System.out.println("Medidas do triangulo: " +base+", " +altura);
@@ -18,5 +13,4 @@ public class AreaTriangulo {
 		double tamanhosRandomica = Math.random()*10;
 		return (int) tamanhosRandomica;
 	}
-
 }

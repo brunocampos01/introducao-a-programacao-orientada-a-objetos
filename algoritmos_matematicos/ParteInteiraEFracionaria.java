@@ -1,9 +1,6 @@
-package matematicaBasica;
-
 public class ParteInteiraEFracionaria{
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		//atributos
 		double n = gerador(); 
 		int parteInteira = (int) n;
@@ -12,7 +9,6 @@ public class ParteInteiraEFracionaria{
 		System.out.println("numero gerado: " +n);
 		System.out.println("parte INTEIRA: " +parteInteira);
 		System.out.println("parte FRACINARIA: " +fracao);
-		
 	}
 	
 	//metodos

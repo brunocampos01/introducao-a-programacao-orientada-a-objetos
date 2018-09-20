@@ -1,9 +1,10 @@
-/*9 MDC
+/* MDC:
 Calcular o MDC (máximo divisor comum) entre dois números:
 public static int mdc(int numero1, int numero2)*/
 
 public class MDC {
     public static void main(String[] args) {
+    	//teste
         System.out.println(mdc(36,90));
     }
     public static int mdc(int numero1, int numero2) {

@@ -1,7 +1,7 @@
 /*
 Imprima todos os multiplos de 3, entre 1 e 100
  */
-package multiplos3ate100;
+
 public class Multiplos3Ate100 {
     public static void main(String[] args) {
             

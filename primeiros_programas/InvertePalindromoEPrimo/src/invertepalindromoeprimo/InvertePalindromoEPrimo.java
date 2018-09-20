@@ -6,14 +6,13 @@
 • primo(n): verifica se n e primo, ou seja, que tem apenas dois divisores diferentes (1 e ele mesmo). ´
 Exemplos de primos: 2, 3, 5, ..., 577, ..., 997.
  */
-package invertepalindromoeprimo;
 public class InvertePalindromoEPrimo {
     public static void main(String[] args) {
         System.out.println(inverteNumero(7631));
         System.out.println(palindromo(3113));
         System.out.println(primo(30));
     }
-        // 1 método
+        // 1º método - inverteNumero
         public static int inverteNumero(int n){
             int i = 0; 
 
@@ -24,7 +23,7 @@ public class InvertePalindromoEPrimo {
                 }
             return i;
         }
-        //2 método - palindromo
+        //2º método - palindromo
         public static boolean palindromo(int numero){
             int milhar, centena, dezena, unidade, resto;
         
@@ -38,7 +37,7 @@ public class InvertePalindromoEPrimo {
         return milhar == unidade && centena == dezena;
             
         }
-        //3 método - primo
+        //3º método - primo
         public static boolean primo(int x){
             int cont=0;
             for(int a=1; a<=x; a++){
