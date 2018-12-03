@@ -9,9 +9,9 @@ Exercícios, exemplos e resumos sobre Java e orientação à objetos.
 - Java 8 ou superior:<br/>
 `arquivo bash`
 
-## Sumarize
+## Summary
 - [Primeiros programas](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/primeiros_programas)
-- [Algoritmos matematicos](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/algoritmos_matematicos)
+- [Algoritmos matemáticos](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/algoritmos_matematicos)
 - [Estruturas de seleção](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/estruturas_de_selecao)
 - [Estruturas de repetição](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/estruturas_de_repeticao)
 
