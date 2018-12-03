@@ -1,39 +1,22 @@
-# How to README?
-
-It must have the following format:
-- Title 
-- Tags: Search shields [here !](https://shields.io/#/examples/build)
-- Describe project 
-- Pre Requirements
-- Quickstart
-- Install
-- Examples
-- References 
-- Bug fix or sugestions
-- How to contribuite </br> 
-- Author
-- Copyright and license
-
----
-# Example
-
-## Title
-[![Python 3.7](https://img.shields.io/badge/python-3.7-yellow.svg)](https://www.python.org/downloads/release/python-371/)
+# Introdução a programação orientada à objetos
+[![java](https://img.shields.io/badge/UFSC-Introdu%C3%A7%C3%A3o%20a%20programa%C3%A7%C3%A3o%20orientada%20%C3%A0%20objetos-red.svg)
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 
-## Describe project 
+## Describe project
+Exercícios, exemplos e resumos sobre Java e orientação à objetos.
+
 ## Pre Requirements
-## Quickstart
-## Install
-## Examples
+- Java 8 ou superior:<br/>
+`arquivo bash`
+
+## Sumarize
+- [Primeiros programas](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/primeiros_programas)
+- [Algoritmos matematicos](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/algoritmos_matematicos)
+- [Estruturas de seleção](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/estruturas_de_selecao)
+- [Estruturas de repetição](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/estruturas_de_repeticao)
+
 ## References 
-## Bug fix or sugestions
-## How to contribuite
-1. [Fork](fork) the official repository.
-2. Create a topic branch.
-3. *Implement your feature or bug fix.*
-4. Add, commit, and **push** your changes.
-5. Submit a pull request.
+- Java: como programar, autor Paul Deitel
 
 ## Author
 - Bruno Aurélio Rôzza de Moura Campos (brunocampos01@gmail.com)
