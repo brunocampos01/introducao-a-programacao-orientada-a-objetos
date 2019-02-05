@@ -1,4 +1,5 @@
-public class Fatorial {
+
+public class Fatorial1 {
 	public static void main(String[] args) {
 		int fat = 3;
 		

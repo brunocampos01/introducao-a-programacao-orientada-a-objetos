@@ -2,6 +2,7 @@ public class ProximoPrimo {
     public static void main(String[] args) {
         System.out.println(proximoPrimo(7));
     }
+
     public static int proximoPrimo(int n){
         int cont = 0;
         boolean primo;

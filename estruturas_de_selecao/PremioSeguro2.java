@@ -1,6 +1,6 @@
 /* o valor de um seguro de automoveis depende do sexo e da idade ser > ou < 24 anos*/
 
-public class PremioSeguro {
+public class PremioSeguro2 {
     public static void main(String[] args) {
     	//testes
     	System.out.println(premio(18, 'm', 10000));
