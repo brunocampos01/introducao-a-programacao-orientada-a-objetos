@@ -7,7 +7,6 @@ Exercícios, exemplos e resumos sobre Java e orientação à objetos.
 
 ## Pre Requirements
 - Java 8 ou superior:<br/>
-`arquivo bash`
 
 ## Summary
 - [Primeiros programas](https://github.com/brunocampos01/intro-a-programacao-orientada-a-objetos/tree/master/primeiros_programas)
