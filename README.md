@@ -38,7 +38,9 @@ Em JAVA há 3:
 
 <img src="imagens/do-while.png" />
 
+
 Em UML:
+
 <img src="imagens/do-whole-uml.png" />
 
 #### For
