@@ -34,6 +34,10 @@ Em JAVA há 3:
 #### Do...while 
 - A instrução de repetição do while é semelhante à instrução while. 
 - Aqui o loop é executado 1 vez SEMPRE!!! 
+
+<img src="imagens/do-while.jpg" />
+
+
 - A instrução do while testa a condição de continuação do loop depois de executar o corpo do loop. 
 
 <img src="imagens/do-while.png" />
