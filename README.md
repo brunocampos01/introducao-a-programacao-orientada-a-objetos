@@ -5,7 +5,7 @@
 ## Describe project
 Exercícios, exemplos e resumos sobre Java e orientação à objetos.
 
-## Pre Requirements
+## Requirements
 - Java 8 ou superior:<br/>
 
 ## Summary
