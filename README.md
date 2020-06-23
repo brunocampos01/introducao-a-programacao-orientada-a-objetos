@@ -81,6 +81,8 @@ Mas se você souber quantas vezes o loop será executado (por exemplo, dependend
 - Java: como programar (Paul Deitel)
 - Head First: Java
 
+---
+
 #### Author
 Bruno Aurélio Rôzza de Moura Campos
 
