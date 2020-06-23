@@ -11,7 +11,7 @@ sudo apt install default-jdk default-jre
 java -version
 javac -version
 ```
-## Programas em Java
+## Exercícios em Java
 - [Primeiros programas](primeiros-programas)
 - [Algoritmos matemáticos](algoritmos-matematicos)
 - [Estruturas de seleção](estruturas-de-selecao)
@@ -84,8 +84,8 @@ Mas se você souber quantas vezes o loop será executado (por exemplo, dependend
 #### Author
 Bruno Aurélio Rôzza de Moura Campos
 
-<a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="images/gmail.png" width="28"></a>
-<a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="images/github.png" width="30"></a>
+<a href="mailto:brunocampos01@gmail.com" target="_blank"><img class="" src="https://github.com/brunocampos01/devops/blob/master/images/gmail.png" width="28"></a>
+<a href="https://github.com/brunocampos01" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/github.png" width="30"></a>
 <a href="https://www.linkedin.com/in/brunocampos01/" target="_blank"><img class="ai-subscribed-social-icon" src="https://github.com/brunocampos01/devops/blob/master/images/linkedin.png" width="30"></a>
 
 #### Copyright
