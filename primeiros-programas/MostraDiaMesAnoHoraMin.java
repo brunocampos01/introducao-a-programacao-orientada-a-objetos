@@ -3,7 +3,12 @@ import java.util.Calendar;
 public class MostraDiaMesAnoHoraMin {
     public static void main(String[] nomeDaVariavel) {
         //variaveis (atributos)
-        int dia, mes, ano, hora, min;
+        int dia;
+        int mes;
+        int ano;
+        int hora;
+        int min;
+        
         Calendar c = Calendar.getInstance();
         dia = c.get(Calendar.DAY_OF_MONTH);
         mes = c.get(Calendar.MONTH) + 1;
