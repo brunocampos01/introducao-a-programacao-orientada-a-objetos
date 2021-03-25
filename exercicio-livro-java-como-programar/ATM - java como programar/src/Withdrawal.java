@@ -1,5 +1,3 @@
-import java.awt.DisplayMode;
-
 public class Withdrawal extends Trasaction{
 	private int amount;
 	private Keypad keypad;
