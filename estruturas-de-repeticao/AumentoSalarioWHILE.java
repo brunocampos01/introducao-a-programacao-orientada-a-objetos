@@ -5,7 +5,9 @@ public class AumentoSalarioWHILE {
 
         // declaracao de variaveis
         int i, anoA;
-        double porcentagem, salario0, novoSal;
+        double porcentagem;
+        double salario0;
+        double novoSal;
         Scanner entrada = new Scanner(System.in);
 
         // atributos
