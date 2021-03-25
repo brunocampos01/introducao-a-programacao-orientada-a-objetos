@@ -4,7 +4,8 @@ public class AumentoSalarioWHILE {
     public static void main(String[] args) {
 
         // declaracao de variaveis
-        int i, anoA;
+        int i;
+        int anoA;
         double porcentagem;
         double salario0;
         double novoSal;
