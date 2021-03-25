@@ -7,7 +7,11 @@ public class Palindromo {
     }
 
     public static boolean ehPalindromo(int numero) {
-        int milhar, centena, dezena, unidade, resto;
+        int milhar;
+        int centena;
+        int dezena;
+        int unidade;
+        int resto;
 
         milhar = numero / 1000;
         resto = numero % 1000;
