@@ -55,7 +55,7 @@ public class ATM {
 		userAutenticated = bankDataBase.authenticateUser( accountNumber, pin);
 		
 		//verifica se autenticacao esta OK
-		if( userAutenticated)
+		if(userAutenticated)
 		{
 			currentAccountNumber = accountNumber;	//salva a conta do usuario na variavel temporaria
 		}
