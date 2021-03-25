@@ -1,6 +1,3 @@
-import javax.sound.midi.Track;
-import javax.sql.rowset.spi.TransactionalWriter;
-
 public class ATM {
 	
 	private boolean userAutenticated;
@@ -18,8 +15,7 @@ public class ATM {
 	private static final int EXIT = 4;
 	
 	//construtor padaro para inicializar as variaveis e criar os objetos
-	public ATM()
-	{
+	public ATM() {
 		userAutenticated = false;
 		currentAccountNumber = 0;
 		screen = new Screen();
@@ -30,8 +26,7 @@ public class ATM {
 	}
 	
 	//inicia o ATM
-	public void run()
-	{
+	public void run() {
 		while(true)
 		{
 			//faz loop enquanto usuario nao autenticado
@@ -50,8 +45,7 @@ public class ATM {
 	}
 	
 	//pega dados de login do usuario e verifica no banco de dados
-	private void authenticateUser()
-	{
+	private void authenticateUser() {
 		screen.displayMessageLine("Entre com o numero da conta: ");
 		int accountNumber = keypad.getInput();	//atribui o q foi digitado na variavel accountNumber
 		screen.displayMessageLine("Numero de PIN: ");
@@ -72,8 +66,7 @@ public class ATM {
 	}
 	
 	//exibir menu principal
-	private void performTransactions()
-	{
+	private void performTransactions() {
 		Trasaction currentTrasaction = null; 	//armaze a transacao atual em processo
 		boolean userExited = false;
 		
@@ -104,8 +97,7 @@ public class ATM {
 		}
 	}
 	
-	private int displayMainMenu()
-	{
+	private int displayMainMenu() {
 		screen.displayMessageLine("\n Menu pricipal");
 		screen.displayMessageLine("\n1 - Ver saldo");
 		screen.displayMessageLine("2 - Saque");
@@ -116,13 +108,11 @@ public class ATM {
 	}
 	
 	//retorna o objeto da subclasse de Trasaction escolhida
-	private Trasaction createTrasaction( int type)
-	{
+	private Trasaction createTrasaction( int type) {
 		Trasaction temp = null;	//variavel temporaria
 		
 		//determina que Trasaction deve criar
-		switch(type)
-		{
+		switch(type) {
 		case BALANCE_INQUIRY:
 			temp = new BalaceInquiry(currentAccountNumber, screen, bankDataBase);
 			break;
