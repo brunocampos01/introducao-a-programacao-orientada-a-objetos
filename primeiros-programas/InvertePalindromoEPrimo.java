@@ -27,7 +27,11 @@ public class InvertePalindromoEPrimo {
 
     //2º método - palindromo
     public static boolean palindromo(int numero) {
-        int milhar, centena, dezena, unidade, resto;
+        int milhar;
+        int centena;
+        int dezena;
+        int unidade;
+        int resto;
 
         milhar = numero / 1000;
         resto = numero % 1000;
