@@ -3,13 +3,18 @@ import java.util.Scanner;
 public class AumentoSalarioFOR {
     public static void main(String[] args) {
         // atributos
-        int i, anoA;
-        double porcentagem, salario0, novoSal;
+        int i;
+        int anoA;
+        double porcentagem;
+        double salario0;
+        double novoSal;
         Scanner entrada;
         entrada = new Scanner(System.in);
         salario0 = 1000;
         porcentagem = 0.015;
+        
         novoSal = salario0 + porcentagem * salario0;
+        
         System.out.println("digite o ano:");
         anoA = entrada.nextInt();
 
