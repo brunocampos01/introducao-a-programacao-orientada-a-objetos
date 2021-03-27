@@ -76,6 +76,69 @@ Mas se você souber quantas vezes o loop será executado (por exemplo, dependend
 
 ---
 
+## Conceitos Básicos
+
+#### Objeto (Entidade)
+- É uma abstração de algo real, em termos de POO
+- Ex) um livro, uma página de um livro, uma viagem, uma data, um pedido, uma música... 
+
+#### Características
+- Tem existência própria (é único); 
+- Tem identificação; 
+- Tem características de como é composto (agregado a outros objetos), como cor, tamanho, tempo, etc; 
+- Ocupa espaço na memória, depois de criado (instanciado); 
+
+<img src="img/do-while.png" />
+
+**Atributos**: São as características dos objetos. 
+<br/>
+**Comportamentos**: São as ações que o objeto pode fazer ou ações que o objeto pode sofrer.  
+
+##### Representação de um objeto PORTA:  
+<img src="img/do-while.png" />
+
+
+**Abstraindo ...**
+- O Objeto fechadura, maçaneta e outro são agregados ao objeto porta. 
+- Em linguagens procedurais diz que a função tem: 
+  - Campos e Métodos. 
+
+
+#### Classes 
+##### Por que usar a palavra classe? 
+  - A palavra classe vem da taxonomia da biologia. Todos os seres vivos de uma mesma classe biológica têm uma série de atributos e comportamentos em comum, mas não são iguais, podem variar nos valores desses atributos e como realizam esses comportamentos. 
+
+##### Classificar
+Quando objetos possuem características (atributos e comportamentos) em comum nós classificamos. 
+
+##### Definição 
+Uma classe (ideia) especifica quais os principais atributos e comportamentos (serviços) que o objeto (concreto) deve possuir para serem classificados nesta classe. Exemplo de classe: 
+
+- Classe: 
+  - camisa t-shirt mormai 
+- Características da classe: 
+  - Tem manga curta; 
+  - Feito de algodão; 
+- Comportamentos da classe: 
+  - São elásticas; 
+  - Protegem do frio; 
+
+- Objeto A: 
+  - Caraterísticas - Tem manga curta; Feito de algodão; Tem cor azul; 
+  - Comportamentos - São elásticas; Protegem do frio; 
+
+**Classificação** – mesmo o objeto A tendo uma característica a mais ele pode ser classificado nesta classe, pois ele possui todos os atributos e comportamentos que a classe exige. 
+
+##### Toda Classe define para seus objetos
+- Atributos (estrutura do objeto). EX) cor da parede. 
+- Métodos (comportamentos que os objetos podem fazer ou sofrerem ações). 
+- Como são representados esses atributos (variáveis ou outros objetos). 
+
+
+“O mundo dos objetos encontra-se fora do método main().” 
+
+---
+
 #### Referências 
 - Aulas do professor Mariane - UFSC
 - Java: como programar (Paul Deitel)
