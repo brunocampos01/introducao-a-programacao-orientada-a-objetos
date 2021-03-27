@@ -86,9 +86,9 @@ Mas se você souber quantas vezes o loop será executado (por exemplo, dependend
 
 ---
 
-## Conceitos Básicos
+## **Conceitos Básicos**
 
-#### Objeto (Entidade)
+### Objeto (Entidade)
 - É uma abstração de algo real, em termos de POO
 - Ex) um livro, uma página de um livro, uma viagem, uma data, um pedido, uma música... 
 
@@ -98,14 +98,16 @@ Mas se você souber quantas vezes o loop será executado (por exemplo, dependend
 - Tem características de como é composto (agregado a outros objetos), como cor, tamanho, tempo, etc; 
 - Ocupa espaço na memória, depois de criado (instanciado); 
 
-<img src="img/do-while.png" />
+<img src="img/obj.png" />
+
+<br/>
 
 **Atributos**: São as características dos objetos. 
 <br/>
 **Comportamentos**: São as ações que o objeto pode fazer ou ações que o objeto pode sofrer.  
 
 ##### Representação de um objeto PORTA:  
-<img src="img/do-while.png" />
+<img src="img/obj_porta.png" />
 
 
 **Abstraindo ...**
@@ -155,7 +157,7 @@ Os métodos GET e SET serve para acessar e configurar dados declarados como PRIV
 
 Por exemplo, se tenho um atributo chamado "nome" do tipo String em modo private, criam-se 2 métodos, um para alterar o valor deste atributo (SET) e outro para se obter o valor deste atributo (GET). Veja o exemplo: 
 
-<img src="img/do-while.png" />
+<img src="img/get_set.png" />
 
 ##### Características: 
 - SET (método modificador) 
