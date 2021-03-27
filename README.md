@@ -168,6 +168,19 @@ Por exemplo, se tenho um atributo chamado "nome" do tipo String em modo private,
   - É sempre public 
   - Retorna algo 
 
+Exemplo de método `set` como um validador de dados:
+
+<img src="img/set_validator.jpg" />
+
+
+## Referência this/self
+- `this` ou `self` sempre está se referenciando a própria classe ou o objeto já instanciado. 
+- Traduzindo, this.ligada seria: a variável ligada desta classe recebe o valor de ligada 
+- O paramento recebe o valor do atributo
+- 
+<img src="img/this.jpg" />
+
+
 
 ### Método Construtor
 - Serve para permitir que um determinado trecho de código seja executado toda vez que um objeto for criado (new), na mesma classe. 
