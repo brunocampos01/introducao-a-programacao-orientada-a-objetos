@@ -11,17 +11,27 @@ sudo apt install default-jdk default-jre
 java -version
 javac -version
 ```
-## Exercícios em Java
+
+## Sumário
+### Exercícios em Java
 - [Primeiros programas](primeiros-programas)
 - [Algoritmos matemáticos](algoritmos-matematicos)
 - [Estruturas de seleção](estruturas-de-selecao)
 - [Estruturas de repetição](estruturas-de-repeticao)
 
-
-## Instruções de Controle
+### Instruções de Controle
 - Estrutura de sequência (o processador lê linha por linha)
 - Estrutura de seleção
 - Estrutura de repetição
+
+### Conceitos Básicos
+- Objeto
+- Classe
+- Métodos Get e Set
+- Método Construtor  
+- self/this
+
+---
 
 ### Estrutura de repetição
 - While 
@@ -136,6 +146,41 @@ Uma classe (ideia) especifica quais os principais atributos e comportamentos (se
 
 
 “O mundo dos objetos encontra-se fora do método main().” 
+
+
+### Método Get e Set
+Os métodos GET e SET serve para acessar e configurar dados declarados como PRIVATE . Os dados PRIVATE de uma classe só podem ser manipulados pelos métodos:
+- SET (método modificador) 
+- GET (método de acesso) 
+
+Por exemplo, se tenho um atributo chamado "nome" do tipo String em modo private, criam-se 2 métodos, um para alterar o valor deste atributo (SET) e outro para se obter o valor deste atributo (GET). Veja o exemplo: 
+
+<img src="img/do-while.png" />
+
+##### Características: 
+- SET (método modificador) 
+  - É sempre public void 
+  - Validar um dado (este método é conhecido como predicado) 
+  - Configurar (armazenar) um dado 
+- GET (método de acesso) 
+  - É sempre public 
+  - Retorna algo 
+
+
+### Método Construtor
+- Serve para permitir que um determinado trecho de código seja executado toda vez que um objeto for criado (new), na mesma classe. 
+- O comando `new` chama o construtor. 
+- Se não criarmos construtores o Java inicia os valores padrões default. Construtor tem um valor padrão, assim como String é null e int é 0. 
+- Um construtor permite compor parâmetros 
+- Um construtor não tem retorno. Esta é a principal diferença entre construtor e método. 
+- Um construtor tem o nome de sua classe. 
+- Um construtor também pode ser sobrecarregado 
+
+#### Sintaxe
+- Um construtor sempre terá o nome da classe a que pertence. 
+- Diferente dos métodos, construtores não devolvem resposta. 
+
+
 
 ---
 
