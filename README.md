@@ -1,4 +1,4 @@
-# Introdução a programação orientada à objetos
+# Introdução a Orogramação Orientada à Objetos
 ![License](https://img.shields.io/badge/Code%20License-MIT-blue.svg)
 ![java](https://img.shields.io/badge/UFSC-Introdu%C3%A7%C3%A3o%20a%20programa%C3%A7%C3%A3o%20orientada%20%C3%A0%20objetos-blue.svg)
 
