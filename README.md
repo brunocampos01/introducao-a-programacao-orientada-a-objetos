@@ -4,13 +4,11 @@
 
 Exercícios, exemplos e resumos sobre fundametos de programação orientada à objetos.
 
-## Requisitos
-- Java 8 ou superior
-```shell script
-sudo apt install default-jdk default-jre
-java -version
-javac -version
-```
+## Requirements
+| Requisite      | Version  |
+|----------------|----------|
+| Java           | 1.8.0_282|
+| javac          | 1.8.0_282|
 
 ## Sumário
 ### Exercícios em Java
