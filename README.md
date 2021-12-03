@@ -8,7 +8,7 @@ Exercícios, exemplos e resumos sobre fundametos de programação orientada à o
 | Requisite      | Version  |
 |----------------|----------|
 | Java           | 1.8.0_282|
-| javac          | 1.8.0_282|
+| Javac          | 1.8.0_282|
 
 ## Sumário
 ### Exercícios em Java
