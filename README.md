@@ -250,8 +250,19 @@ Exemplo de método `set` como um validador de dados:
 
 <img src="img/this.png" />
 
+<br/>
 
+## Erros de Programação
+## Erros Léxicos
+Quando há a presença de caracteres que não condizem com nenhum padrão da lingua. Neste caso o analisador léxico sinaliza um erro informando a posição deste token.
 
+## Erros Sintáticos
+São referentes a gramática da lingua,por exemplo, a falta de ponto -e-vírgula, ou espaçamento. Isso é detectado em tempo de compilação.
+
+## Erros Semânticos
+A semântica se refere ao significado que se quer dizer. Alguns tipos de erros podem ser:
+- dividir um número por uma string
+- divisão por zero
 
 
 ---
