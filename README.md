@@ -252,7 +252,7 @@ Exemplo de método `set` como um validador de dados:
 
 <br/>
 
-## Erros de Programação
+## Tipos de Erros em Programação
 ## Erros Léxicos
 Quando há a presença de caracteres que não condizem com nenhum padrão da lingua. Neste caso o analisador léxico sinaliza um erro informando a posição deste token.
 
